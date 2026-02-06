@@ -1,8 +1,10 @@
 package OOP_basics;
 
 abstract public class Card implements PaymentMethod{
-    private String cardNo;
-    private String userName;
+    //this cardNo and username should be accessible in child class if we want to print username so we
+    //should make it protected
+    protected String cardNo;
+    protected String userName;
 
     public Card(String cardNo,String userName){
         this.cardNo = cardNo;
