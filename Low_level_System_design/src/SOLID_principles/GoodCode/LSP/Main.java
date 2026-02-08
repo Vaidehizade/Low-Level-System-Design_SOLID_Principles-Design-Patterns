@@ -12,7 +12,7 @@ public class Main {
        WritableFile wfile = new WritableFile();
        wfile.read();
        wfile.write();
-       
+
        readAnyFile(rfile);
        readAnyFile(wfile);
 
