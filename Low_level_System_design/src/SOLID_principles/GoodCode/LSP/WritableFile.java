@@ -1,6 +1,6 @@
 package SOLID_principles.GoodCode.LSP;
 
-public class WritableFile implements Writable{
+public class WritableFile extends ReadableFile implements Writable{
 
     public void write()
     {
