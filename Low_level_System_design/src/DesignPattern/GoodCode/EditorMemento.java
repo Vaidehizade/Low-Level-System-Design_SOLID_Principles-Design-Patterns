@@ -1,4 +1,4 @@
-package DesignPattern.MementoPattern.GoodCode;
+package DesignPattern.GoodCode;
 
 
 //Memento Class: Stores the internal state of the TextEditor

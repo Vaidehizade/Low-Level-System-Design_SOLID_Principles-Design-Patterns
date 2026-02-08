@@ -1,4 +1,4 @@
-package DesignPattern.MementoPattern.GoodCode;
+package DesignPattern.GoodCode;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package DesignPattern.MementoPattern.GoodCode;
+package DesignPattern.GoodCode;
 
 
 public class TextEditorMain {
