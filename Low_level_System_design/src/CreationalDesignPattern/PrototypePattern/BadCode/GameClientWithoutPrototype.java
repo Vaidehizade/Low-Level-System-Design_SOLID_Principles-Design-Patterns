@@ -9,11 +9,14 @@ public class GameClientWithoutPrototype {
 
         //Checkpoint this state
         GameBoard copiedBoard = new GameBoard();
+        //we are iterating while copying....
         for(GamePiece piece: gameBoard.getPieces()){
+            //copy of game piece
             copiedBoard.addPiece(new GamePiece(piece.getColour(), piece.getPosition()));
         }
-
         System.out.println("Copied Board");
         copiedBoard.showBoardState();
+        //less flexible
+        //manual copy
     }
 }
