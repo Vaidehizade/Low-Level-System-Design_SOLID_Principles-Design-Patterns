@@ -2,6 +2,8 @@ package StructuralDesignPattern.ProxyPattern.BadCode;
 
 public class Client {
     public static void main(String[] args) {
+
+        //ya code mule direct image load houn jaychii disk madhna jsa object initialize kela tsa
         Image img1 = new RealImage("dog.png");
         Image img2 = new RealImage("dog.png");
 
