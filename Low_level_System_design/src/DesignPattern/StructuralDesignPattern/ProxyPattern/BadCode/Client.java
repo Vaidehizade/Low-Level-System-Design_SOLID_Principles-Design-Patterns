@@ -1,11 +1,13 @@
-package StructuralDesignPattern.ProxyPattern.BadCode;
+package DesignPattern.StructuralDesignPattern.ProxyPattern.BadCode;
 
+import StructuralDesignPattern.ProxyPattern.BadCode.Image;
+import StructuralDesignPattern.ProxyPattern.BadCode.RealImage;
 public class Client {
     public static void main(String[] args) {
 
         //ya code mule direct image load houn jaychii disk madhna jsa object initialize kela tsa
         Image img1 = new RealImage("dog.png");
-        Image img2 = new RealImage("dog.png");
+      Image img2 = new RealImage("dog.png");
 
         img1.display(); //img1 is getting used but not img2
         img1.display();

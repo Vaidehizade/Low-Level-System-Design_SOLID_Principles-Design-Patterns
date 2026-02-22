@@ -1,4 +1,4 @@
-package StructuralDesignPattern.ProxyPattern.BadCode;
+package DesignPattern.StructuralDesignPattern.ProxyPattern.BadCode;
 
 public class RealImage implements Image{
 
