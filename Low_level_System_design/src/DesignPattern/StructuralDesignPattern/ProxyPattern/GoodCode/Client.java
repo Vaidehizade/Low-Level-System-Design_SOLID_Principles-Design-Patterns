@@ -1,4 +1,5 @@
-package StructuralDesignPattern.ProxyPattern.GoodCode;
+package DesignPattern.StructuralDesignPattern.ProxyPattern.GoodCode;
+import DesignPattern.StructuralDesignPattern.ProxyPattern.GoodCode.Image;
 
 
 public class Client {

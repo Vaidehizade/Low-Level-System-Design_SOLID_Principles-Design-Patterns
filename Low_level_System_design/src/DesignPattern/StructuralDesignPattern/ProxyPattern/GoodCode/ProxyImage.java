@@ -1,8 +1,7 @@
-package StructuralDesignPattern.ProxyPattern.GoodCode;
+package DesignPattern.StructuralDesignPattern.ProxyPattern.GoodCode;
 
-import StructuralDesignPattern.ProxyPattern.BadCode.RealImage;
-
-public class ProxyImage implements Image{
+import DesignPattern.StructuralDesignPattern.ProxyPattern.GoodCode.RealImage;
+public class ProxyImage implements Image {
 
     public String filename;  //Proxy image holds filename and refrence to the real image
     public RealImage realImage;

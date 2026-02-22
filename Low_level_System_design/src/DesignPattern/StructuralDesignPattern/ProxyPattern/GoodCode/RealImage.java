@@ -1,6 +1,6 @@
-package StructuralDesignPattern.ProxyPattern.GoodCode;
+package DesignPattern.StructuralDesignPattern.ProxyPattern.GoodCode;
 
-import StructuralDesignPattern.ProxyPattern.BadCode.Image;
+import DesignPattern.StructuralDesignPattern.ProxyPattern.GoodCode.Image;
 
 public class RealImage implements Image {
 
